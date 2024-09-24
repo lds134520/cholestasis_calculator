@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>胆汁淤积风险计算器</title>
+</head>
+<body>
+    <h1>胆汁淤积风险计算器</h1>
+    <form action="/predict" method="POST">
+        <label>Week 2 Amino Acid Cumulative Dose:</label>
+        <input type="text" name="week_2_amino_acid_dose"><br>
+
+        <label>Fasting Time:</label>
+        <input type="text" name="fasting_time"><br>
+
+        <label>Week 1 Fat Emulsion Cumulative Dose:</label>
+        <input type="text" name="week_1_fat_emulsion_dose"><br>
+
+        <label>Gestational Age:</label>
+        <input type="text" name="gestational_age"><br>
+
+        <label>AST:</label>
+        <input type="text" name="ast"><br>
+
+        <label>Total Bilirubin:</label>
+        <input type="text" name="total_bilirubin"><br>
+
+        <label>Alkaline Phosphatase:</label>
+        <input type="text" name="alkaline_phosphatase"><br>
+
+        <label>Platelet Count:</label>
+        <input type="text" name="platelet_count"><br>
+
+        <label>GGT:</label>
+        <input type="text" name="ggt"><br>
+
+        <label>White Blood Cell Count:</label>
+        <input type="text" name="white_blood_cell_count"><br>
+
+        <label>Mother's Age:</label>
+        <input type="text" name="mother_age"><br>
+
+        <input type="submit" value="Calculate Risk">
+    </form>
+</body>
+</html>
